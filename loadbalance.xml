@@ -1,0 +1,20 @@
+<LoadBalance>
+
+<Configuration>
+   <limits maxports="10" />
+   <shmkey value="0x666666666" />
+</Configuration>
+
+<PortsIncomming>
+	<port name=" " ip=" " portnum=" " log=" " TPDU="" identifier="" multithread="" headerlen="" headertype="" />
+	<port name=" " ip=" " portnum=" " log=" " TPDU="" identifier="" multithread="" headerlen="" headertype="" />
+</PortsIncomming>
+
+<PortsOutgoing>
+	<port name=" " IP=" " portnum=" " log=" " TPDU="" identifier="" headerlen="" headertype="" method="primary"   actionondrop="" />
+	<port name=" " IP=" " portnum=" " log=" " TPDU="" identifier="" headerlen="" headertype="" method="secondary" actionondrop="" />
+	<port name=" " IP=" " portnum=" " log=" " TPDU="" identifier="" headerlen="" headertype="" method="primary"   actionondrop="" />
+	<port name=" " IP=" " portnum=" " log=" " TPDU="" identifier="" headerlen="" headertype="" method="secondary" actionondrop="" />
+</PortsOutgoing>
+
+</LoadBalance>
